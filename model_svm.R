@@ -11,3 +11,4 @@ library(e1071)
 model_svm=svm(Species~.,data=iris)
 summary(model_svm)
 plot(model_svm,data = iris,Petal.Width~Petal.Length,slice=list(Sepal.Width=3,Sepal.Length=4))
+change
